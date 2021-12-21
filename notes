@@ -1,0 +1,4 @@
+place all the favourites at the top for simpliciy when printing the lines
+
+split the names and City
+change the format of the time to %H:%M:%S
