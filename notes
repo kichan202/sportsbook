@@ -2,3 +2,8 @@ place all the favourites at the top for simpliciy when printing the lines
 
 split the names and City
 change the format of the time to %H:%M:%S
+
+change the TIME format fomr %H to %I %p so i can get the am or pm
+
+leave the time as a string when printing the line, and internally convert it to a time object to do calculations
+
