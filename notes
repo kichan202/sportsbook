@@ -7,3 +7,139 @@ change the TIME format fomr %H to %I %p so i can get the am or pm
 
 leave the time as a string when printing the line, and internally convert it to a time object to do calculations
 
+ main_list = games[key]
+        vs_list = codes[main_list[7]]
+        game_time = main_list[6]
+        spread = main_list[0]
+        spread_odds = main_list[1]
+        money_line = main_list[2]
+        over_under = main_list[4]
+        away_team_name = codes[key][1]
+
+
+code,league,name,city
+1001,mlb,Braves,Atlanta
+1002,mlb,Marlins,Miami
+1003,mlb,Mets,New York
+1004,mlb,Phillies,Philadelphia
+1005,mlb,Nationals,Washington
+1006,mlb,Cubs,Chicago
+1007,mlb,Reds,Cincinnati
+1008,mlb,Brewers,Milwaukee
+1009,mlb,Pirates,Pittsburgh
+1010,mlb,Cardinals,St. Louis
+1011,mlb,Diamondbacks,Arizona
+1012,mlb,Rockies,Colorado
+1013,mlb,Dodgers,Los Angeles
+1014,mlb,Padres,San Diego
+1015,mlb,Giants,San Francisco
+1016,mlb,Orioles,Baltimore
+1017,mlb,Red Sox,Boston
+1018,mlb,Yankees,New York
+1019,mlb,Rays,Tampa Bay
+1020,mlb,Blue Jays,Toronto
+1021,mlb,White Sox,Chicago
+1022,mlb,Indians,Cleveland
+1023,mlb,Tigers,Detroit
+1024,mlb,Royals,Kansas City
+1025,mlb,Twins,Minnesota
+1026,mlb,Astros,Houston
+1027,mlb,Angels,Los Angeles
+1028,mlb,Athletics,Oakland
+1029,mlb,Mariners,Seattle
+1030,mlb,Rangers,Texas
+code,league,name,city
+2001,nfl,Bills,Buffalo
+2002,nfl,Dolphins,Miami
+2003,nfl,Patriots,New England 
+2004,nfl,Jets,New York
+2005,nfl,Ravens,Baltimore
+2006,nfl,Bengals,Cincinnati
+2007,nfl,Browns,Cleveland
+2008,nfl,Steelers,Pittsburgh
+2009,nfl,Texans,Houston
+2010,nfl,Colts,Indianapolis
+2011,nfl,Jaguars,Jacksonville
+2012,nfl,Titans,Tennessee
+2013,nfl,Broncos,Denver
+2014,nfl,Chiefs,Kansas City
+2015,nfl,Raiders,Oakland
+2016,nfl,Chargers,Los Angeles
+2017,nfl,Cowboys,Dallas
+2018,nfl,Giants,New York
+2019,nfl,Eagles,Philadelphia
+2020,nfl,WTF,Washington 
+2021,nfl,Bears,Chicago
+2022,nfl,Lions,Detroit
+2023,nfl,Packers,Green Bay
+2024,nfl,Vikings,Minnesota
+2025,nfl,Falcons,Atlanta
+2026,nfl,Panthers,Carolina
+2027,nfl,Saints,New Orleans
+2028,nfl,Buccaneers,Tampa Bay
+2029,nfl,Cadinals,Arizona
+2030,nfl,Rams,Los Angeles
+2031,nfl,49ers,San Francisco
+2032,nfl,Seahawks,Seattle
+3001,nba,Celtics,Boston
+3002,nba,Nets,Brooklyn
+3003,nba,Knicks,New York
+3004,nba,76ers,Philadelphia
+3005,nba,Raptors,Toronto
+3006,nba,Bulls,Chicago
+3007,nba,Cavaliers,Cleveland
+3008,nba,Pistons,Detroit
+3009,nba,Pacers,Indiana
+3010,nba,Bucks,Milwaukee 
+3011,nba,Hawks,Atlanta
+3012,nba,Hornets,Charlotte
+3013,nba,Heat,Miami
+3014,nba,Magic,Orlando
+3015,nba,Wizards,Washington
+3016,nba,Nuggets,Denver
+3017,nba,Timberwolves,Minnesota
+3018,nba,Thunder,Oklahoma City
+3019,nba,Blazers,Portland Trail
+3020,nba,Jazz,Utah
+3021,nba,Warriors,Golden State
+3022,nba,Clippers,Los Angeles
+3023,nba,Lakers,Los Angeles
+3024,nba,Suns,Phoenix
+3025,nba,Kings,Sacramento
+3026,nba,Mavericks,Dallas
+3027,nba,Rockets,Houston
+3028,nba,Grizzlies,Memphis
+3029,nba,Pelicans,New Orleans
+3030,nba,Spurs,San Antonio
+4001,nhl,Hurricanes,Carolina
+4002,nhl,Blue Jackets,Columbus
+4003,nhl,Devils,New Jersy
+4004,nhl,Islanders,New York
+4005,nhl,Rangers,New York
+4006,nhl,Flyers,Philadelphia
+4007,nhl,Penguins,Pittsburg
+4008,nhl,Capitals,Washington
+4009,nhl,Bruins,Boston
+4010,nhl,Sabres,Buffalo
+4011,nhl,Red Wings,Detroit
+4012,nhl,Panthers,Florida
+4013,nhl,Canadiens,Montreal
+4014,nhl,Senators,Ottawa
+4015,nhl,Lightning,Tampa Bay
+4016,nhl,Maple Leafs,Toronto
+4017,nhl,Coyotes,Arizona
+4018,nhl,Blackhawks,Chicago
+4019,nhl,Avalanche,Colorado
+4020,nhl,Stars,Dallas
+4021,nhl,Wild,Minnesota
+4022,nhl,Predators,Nashville
+4023,nhl,Blues,St. Louis
+4024,nhl,Jets,Wnnipeg 
+4025,nhl,Ducks,Anaheim
+4026,nhl,Flames,Calgary
+4027,nhl,Oilers,Edmonton
+4028,nhl,Kings,Los Angeles
+4029,nhl,Sharks,San Jose
+4030,nhl,Kraken,Seattle
+4031,nhl,Canucks,Vancouver
+4032,nhl,Golden Knights,Vegas
