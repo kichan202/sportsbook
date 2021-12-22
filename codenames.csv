@@ -1,125 +1,125 @@
-code,league,name
-1001,mlb,Alanta Braves
-1002,mlb,Miami Marlins
-1003,mlb,New York Mets
-1004,mlb,Philadelphia Phillies
-1005,mlb,Washington Nationals
-1006,mlb,Chicago Cubs
-1007,mlb,Cincinnati Reds
-1008,mlb,Milwaukee Brewers
-1009,mlb,Pittsburgh Pirates
-1010,mlb,St. Louis Cardinals
-1011,mlb,Arizona Diamondbacks
-1012,mlb,Colorado Rockies
-1013,mlb,Los Angeles Dodgers
-1014,mlb,San Diego Padres
-1015,mlb,San Francisco Giants
-1016,mlb,Baltimore Orioles
-1017,mlb,Boston Red Sox
-1018,mlb,New York Yankees
-1019,mlb,Tampa Bay Rays
-1020,mlb,Toronto Blue Jays
-1021,mlb,Chicago White Sox
-1022,mlb,Cleveland Indians
-1023,mlb,Detroit Tigers
-1024,mlb,Kansas City Royals
-1025,mlb,Minnesota Twins
-1026,mlb,Houston Astros
-1027,mlb,Los Angeles Angels
-1028,mlb,Oakland Athletics
-1029,mlb,Seattle Mariners
-1030,mlb,Texas Rangers
-2001,nfl,Buffalo Bills
-2002,nfl,Miami Dolphins
-2003,nfl,New England Patriots
-2004,nfl,New York Jets
-2005,nfl,Baltimore Ravens
-2006,nfl,Cincinnati Bengals
-2007,nfl,Cleveland Browns
-2008,nfl,Pittsburgh Steelers
-2009,nfl,Houston Texans
-2010,nfl,Indianapolis Colts
-2011,nfl,Jacksonville Jaguars
-2012,nfl,Tennessee Titans
-2013,nfl,Denver Broncos
-2014,nfl,Kansas City Chiefs
-2015,nfl,Oakland Raiders
-2016,nfl,Los Angeles Chargers
-2017,nfl,Dallas Cowboys
-2018,nfl,New York Giants
-2019,nfl,Philadelphia Eagles
-2020,nfl,Washington Football Team
-2021,nfl,Chicago Bears
-2022,nfl,Detroit Lions
-2023,nfl,Green Bay Packers
-2024,nfl,Minnesota Vikings
-2025,nfl,Atlanta Falcons
-2026,nfl,Carolina Panthers
-2027,nfl,New Orleans Saints
-2028,nfl,Tampa Bay Buccaneers
-2029,nfl,Arizona Cadinals
-2030,nfl,Los Angeles Rams
-2031,nfl,San Francisco 49ers
-2032,nfl,Seattle Seahawks
-3001,nba,Boston Celtics
-3002,nba,Brooklyn Nets
-3003,nba,New York Knicks
-3004,nba,Philadelphia 76ers
-3005,nba,Toronto Raptors
-3006,nba,Chicago Bulls
-3007,nba,Cleveland Cavaliers
-3008,nba,Detroit Pistons
-3009,nba,Indiana Pacers
-3010,nba,Milwaukee Bucks
-3011,nba,Atlanta Hawks
-3012,nba,Charlotte Hornets
-3013,nba,Miami Heat
-3014,nba,Orlando Magic
-3015,nba,Washington Wizards
-3016,nba,Denver Nuggets
-3017,nba,Minnesota Timberwolves
-3018,nba,Oklahoma City Thunder
-3019,nba,Portland Trail Blazers
-3020,nba,Utah Jazz
-3021,nba,Golden State Warriors
-3022,nba,Los Angeles Clippers
-3023,nba,Los Angeles Lakers
-3024,nba,Phoenix Suns
-3025,nba,Sacramento Kings
-3026,nba,Dallas Mavericks
-3027,nba,Houston Rockets
-3028,nba,Memphis Grizzlies
-3029,nba,New Orleans Pelicans
-3030,nba,San Antonio Spurs
-4001,nhl,Carolina Hurricanes
-4002,nhl,Columbus Blue Jackets
-4003,nhl,New Jersy Devils
-4004,nhl,New York Islanders
-4005,nhl,New York Rangers
-4006,nhl,Philadelphia Flyers
-4007,nhl,Pittsburg Penguins
-4008,nhl,Washington Capitals
-4009,nhl,Boston Bruins
-4010,nhl,Buffalo Sabres
-4011,nhl,Detroit Red Wings
-4012,nhl,Florida Panthers
-4013,nhl,Montreal Canadiens
-4014,nhl,Ottawa Senators
-4015,nhl,Tampa Bay Lightning
-4016,nhl,Toronto Maple Leafs
-4017,nhl,Arizona Coyotes
-4018,nhl,Chicago Blackhawks
-4019,nhl,Colorado Avalanche
-4020,nhl,Dallas Stars
-4021,nhl,Minnesota Wild
-4022,nhl,Nashville Predators
-4023,nhl,St. Louis Blues
-4024,nhl,Wnnipeg Jets
-4025,nhl,Anaheim Ducks
-4026,nhl,Calgary Flames
-4027,nhl,Edmonton Oilers
-4028,nhl,Los Angeles Kings
-4029,nhl,San Jose Sharks
-4030,nhl,Seattle Kraken
-4031,nhl,Vancouver Canucks
-4032,nhl,Vegas Golden Knights
+code,league,name,city
+1001,mlb,Braves,Atlanta
+1002,mlb,Marlins,Miami
+1003,mlb,Mets,New York
+1004,mlb,Phillies,Philadelphia
+1005,mlb,Nationals,Washington
+1006,mlb,Cubs,Chicago
+1007,mlb,Reds,Cincinnati
+1008,mlb,Brewers,Milwaukee
+1009,mlb,Pirates,Pittsburgh
+1010,mlb,Cardinals,St. Louis
+1011,mlb,Diamondbacks,Arizona
+1012,mlb,Rockies,Colorado
+1013,mlb,Dodgers,Los Angeles
+1014,mlb,Padres,San Diego
+1015,mlb,Giants,San Francisco
+1016,mlb,Orioles,Baltimore
+1017,mlb,Red Sox,Boston
+1018,mlb,Yankees,New York
+1019,mlb,Rays,Tampa Bay
+1020,mlb,Blue Jays,Toronto
+1021,mlb,White Sox,Chicago
+1022,mlb,Indians,Cleveland
+1023,mlb,Tigers,Detroit
+1024,mlb,Royals,Kansas City
+1025,mlb,Twins,Minnesota
+1026,mlb,Astros,Houston
+1027,mlb,Angels,Los Angeles
+1028,mlb,Athletics,Oakland
+1029,mlb,Mariners,Seattle
+1030,mlb,Rangers,Texas
+2001,nfl,Bills,Buffalo
+2002,nfl,Dolphins,Miami
+2003,nfl,Patriots,New England 
+2004,nfl,Jets,New York
+2005,nfl,Ravens,Baltimore
+2006,nfl,Bengals,Cincinnati
+2007,nfl,Browns,Cleveland
+2008,nfl,Steelers,Pittsburgh
+2009,nfl,Texans,Houston
+2010,nfl,Colts,Indianapolis
+2011,nfl,Jaguars,Jacksonville
+2012,nfl,Titans,Tennessee
+2013,nfl,Broncos,Denver
+2014,nfl,Chiefs,Kansas City
+2015,nfl,Raiders,Oakland
+2016,nfl,Chargers,Los Angeles
+2017,nfl,Cowboys,Dallas
+2018,nfl,Giants,New York
+2019,nfl,Eagles,Philadelphia
+2020,nfl,WTF,Washington 
+2021,nfl,Bears,Chicago
+2022,nfl,Lions,Detroit
+2023,nfl,Packers,Green Bay
+2024,nfl,Vikings,Minnesota
+2025,nfl,Falcons,Atlanta
+2026,nfl,Panthers,Carolina
+2027,nfl,Saints,New Orleans
+2028,nfl,Buccaneers,Tampa Bay
+2029,nfl,Cadinals,Arizona
+2030,nfl,Rams,Los Angeles
+2031,nfl,49ers,San Francisco
+2032,nfl,Seahawks,Seattle
+3001,nba,Celtics,Boston
+3002,nba,Nets,Brooklyn
+3003,nba,Knicks,New York
+3004,nba,76ers,Philadelphia
+3005,nba,Raptors,Toronto
+3006,nba,Bulls,Chicago
+3007,nba,Cavaliers,Cleveland
+3008,nba,Pistons,Detroit
+3009,nba,Pacers,Indiana
+3010,nba,Bucks,Milwaukee 
+3011,nba,Hawks,Atlanta
+3012,nba,Hornets,Charlotte
+3013,nba,Heat,Miami
+3014,nba,Magic,Orlando
+3015,nba,Wizards,Washington
+3016,nba,Nuggets,Denver
+3017,nba,Timberwolves,Minnesota
+3018,nba,Thunder,Oklahoma City
+3019,nba,Blazers,Portland Trail
+3020,nba,Jazz,Utah
+3021,nba,Warriors,Golden State
+3022,nba,Clippers,Los Angeles
+3023,nba,Lakers,Los Angeles
+3024,nba,Suns,Phoenix
+3025,nba,Kings,Sacramento
+3026,nba,Mavericks,Dallas
+3027,nba,Rockets,Houston
+3028,nba,Grizzlies,Memphis
+3029,nba,Pelicans,New Orleans
+3030,nba,Spurs,San Antonio
+4001,nhl,Hurricanes,Carolina
+4002,nhl,Blue Jackets,Columbus
+4003,nhl,Devils,New Jersy
+4004,nhl,Islanders,New York
+4005,nhl,Rangers,New York
+4006,nhl,Flyers,Philadelphia
+4007,nhl,Penguins,Pittsburg
+4008,nhl,Capitals,Washington
+4009,nhl,Bruins,Boston
+4010,nhl,Sabres,Buffalo
+4011,nhl,Red Wings,Detroit
+4012,nhl,Panthers,Florida
+4013,nhl,Canadiens,Montreal
+4014,nhl,Senators,Ottawa
+4015,nhl,Lightning,Tampa Bay
+4016,nhl,Maple Leafs,Toronto
+4017,nhl,Coyotes,Arizona
+4018,nhl,Blackhawks,Chicago
+4019,nhl,Avalanche,Colorado
+4020,nhl,Stars,Dallas
+4021,nhl,Wild,Minnesota
+4022,nhl,Predators,Nashville
+4023,nhl,Blues,St. Louis
+4024,nhl,Jets,Wnnipeg 
+4025,nhl,Ducks,Anaheim
+4026,nhl,Flames,Calgary
+4027,nhl,Oilers,Edmonton
+4028,nhl,Kings,Los Angeles
+4029,nhl,Sharks,San Jose
+4030,nhl,Kraken,Seattle
+4031,nhl,Canucks,Vancouver
+4032,nhl,Golden Knights,Vegas
