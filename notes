@@ -7,3 +7,4 @@ change the TIME format fomr %H to %I %p so i can get the am or pm
 
 leave the time as a string when printing the line, and internally convert it to a time object to do calculations
 
+remember to change the files path
