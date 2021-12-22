@@ -213,6 +213,3 @@ def nhl_line():
 
                     data+="%s\n%s\n%s\n%s\n"%(game_time,game_string,vs_string,dash_sign)
     return data
-
-
-print_line(nfl_line())
