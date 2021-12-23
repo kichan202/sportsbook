@@ -1,6 +1,5 @@
 from datetime import datetime
 import pandas as pd
-from pandas.core.arrays import string_
 import subprocess
 
 codes_file = "/home/gaza/Documents/sportsbook/sportsbook/codenames.csv"
@@ -20,7 +19,7 @@ def load_games():
     games = df.set_index('code').T.to_dict('list')
     return games
 
-def print_line(*argv):
+
     time_object= datetime.now()
     time = time_object.strftime("%d/%b/%Y %I:%M %p")
     header ="%s\n\tFull Games\n\tTeams MoneyLine O/U"%time
@@ -39,7 +38,6 @@ def print_line(*argv):
         line+=arg
     lpr = subprocess.Popen("/usr/bin/lpr", stdin=subprocess.PIPE)
     lpr.stdin.write(line.encode())
-
 
 def select_line(which_league):
     codes = load_codes()
@@ -96,3 +94,4 @@ def select_line(which_league):
     else:
         return ""
 
+#print_line(select_line('nfl'))
