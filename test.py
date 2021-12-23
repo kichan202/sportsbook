@@ -1,6 +1,5 @@
 from datetime import datetime
 import pandas as pd
-from pandas.core.arrays import string_
 import subprocess
 
 codes_file = "/home/gaza/Documents/sportsbook/sportsbook/codenames.csv"
@@ -63,6 +62,10 @@ def select_line(which_league):
 
                 if away_team_spread > 0 :
                     away_team_spread = "+%s"%away_team_spread
+
+                #PickEm
+                if away_team_spread == 0 :
+                    away_team_spread = "PK"
                 
                 if home_team_money_line > 0 :
                     home_team_money_line = "+%s"%home_team_money_line
@@ -82,4 +85,5 @@ def select_line(which_league):
     else:
         return ""
 
-print_line(select_line('nfl'),select_line('nba'))
+
+print_line(select_line('nfl'))
