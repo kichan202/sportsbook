@@ -52,7 +52,7 @@ def select_line(which_league):
         for key in games:
             #must use variables
             main_list = games[key]
-            vs_list = codes[main_list[7]]
+            vs_list = codes[main_list[7]] #code and names
             game_time = main_list[6]
             league =codes[key][0]
             if league == which_league:
@@ -94,4 +94,4 @@ def select_line(which_league):
     else:
         return ""
 
-#print_line(select_line('nfl'))
+print_line(select_line('nba'))
