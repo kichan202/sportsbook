@@ -73,6 +73,16 @@ def select_line(*argv):
         line+=data
     return line
 
+def leagues_in_action():
+    data = []
+    codes = load_codes()
+    games = load_games()
+    
+    for key in games:
+        data.append(codes[key][0])
+
+    return set(data)
+
 def print_line(arg):
     time_object= datetime.now()
     time = time_object.strftime("%d/%b/%Y %I:%M %p")
